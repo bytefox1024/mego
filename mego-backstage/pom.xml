@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mego-root</artifactId>
+        <groupId>cn.flyme.mego</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../mego-root/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mego-backstage</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../mego-backstage-model</module>
+        <module>../mego-backstage-mapper</module>
+        <module>../mego-backstage-service</module>
+        <module>../mego-backstage-web</module>
+    </modules>
+
+
+</project>
